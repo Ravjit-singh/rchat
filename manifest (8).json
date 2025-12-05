@@ -1,0 +1,43 @@
+{
+  "name": "R Chat - Ultimate",
+  "short_name": "R Chat",
+  "description": "Secure P2P Video Calling & Encrypted Chat.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a16",
+  "theme_color": "#0a0a16",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Chat",
+      "short_name": "Chat",
+      "description": "Open your secure chat list",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
