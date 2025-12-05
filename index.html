@@ -292,7 +292,7 @@ let myName, friendName, mySanitized, friendSanitized;
 const incomingFiles = {};
 
 const CHUNK_SIZE = 16384; // 16KB
-const RINGTONE_URL = "https://ravjit-singh.github.io/rchat/ring.mp3.mp3";
+const RINGTONE_URL = "https://ravjit-singh.github.io/rchat/ring.mp3";
 const ringtoneAudio = new Audio(); ringtoneAudio.loop = true;
 
 const sanitizeName = n => n ? n.trim().toLowerCase().replace(/\s+/g,'_').replace(/[^\w\-]/g,'') : '';
